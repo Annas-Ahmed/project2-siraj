@@ -96,7 +96,7 @@ const SliderComp = () => {
                 }
                 key={index}
               >
-                <img src={img} alt="" />
+                <img src={img} alt="slider" />
               </div>
               <h2
                 className={

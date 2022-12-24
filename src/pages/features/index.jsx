@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./features.css";
 import { Col, Container, Row } from "react-bootstrap";
 import SliderComp from "../../components/slider";
 
@@ -9,7 +9,7 @@ import StarIcon from "@mui/icons-material/Star";
 import WorkspacePremiumOutlinedIcon from "@mui/icons-material/WorkspacePremiumOutlined";
 import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 
-const Home = () => {
+const Features = () => {
   return (
     <Container>
       <section className="section1-mobile">
@@ -155,4 +155,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Features;
